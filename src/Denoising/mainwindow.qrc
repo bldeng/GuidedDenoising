@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icons/edges.ico</file>
+        <file>Icons/open.ico</file>
+        <file>Icons/points.ico</file>
+        <file>Icons/save.ico</file>
+        <file>Icons/faces.ico</file>
+        <file>Icons/background.ico</file>
+        <file>Icons/about.ico</file>
+        <file>Icons/MeshDenoise.ico</file>
+    </qresource>
+</RCC>
