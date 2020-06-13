@@ -244,7 +244,7 @@ void MainWindow::SetActionStatus(bool value)
 
 void MainWindow::ImportMesh()
 {
-    QString filename = QFileDialog::getOpenFileName(this, tr("Import Mesh"), "../Models", tr(" *.obj *.off *.ply"));
+    QString filename = QFileDialog::getOpenFileName(this, tr("Import Mesh"), "../Models", tr(" *.obj *.off *.ply *.stl"));
 
     if(filename.isNull())
     {
@@ -258,7 +258,7 @@ void MainWindow::ImportMesh()
 
 void MainWindow::ExportMesh()
 {
-    QString filename = QFileDialog::getSaveFileName(this, tr("Export Mesh"), ".", tr(" OBJ File (*.obj);;OFF File (*.off);;PLY File (*.ply)"));
+    QString filename = QFileDialog::getSaveFileName(this, tr("Export Mesh"), ".", tr(" OBJ File (*.obj);;OFF File (*.off);;PLY File (*.ply);;STL File (*.stl)"));
 
     if(filename.isNull())
     {
